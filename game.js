@@ -114,7 +114,8 @@ class Game {
             }
         }
         
-        if(this.stage > this.lookup.length -1){
+        if(this.stage > this.lookup.length-2){
+            console.log("attempted kill")
             this.winner = "B";
         }
     }
