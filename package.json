@@ -1,0 +1,25 @@
+{
+  "name": "serverfile",
+  "version": "1.0.0",
+  "description": "this runs the server",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hungtamyie/sliceServer.git"
+  },
+  "keywords": [
+    "slice"
+  ],
+  "author": "Hung-Tam Yie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hungtamyie/sliceServer/issues"
+  },
+  "homepage": "https://github.com/hungtamyie/sliceServer#readme"
+}
