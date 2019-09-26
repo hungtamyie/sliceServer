@@ -1,4 +1,4 @@
-var Game = require('../Shared/game');
+var Game = require('./Shared/game');
 
 class GameController{
     constructor(name, uuid){

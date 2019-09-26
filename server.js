@@ -5,7 +5,7 @@ var express = require('express');
 var WebSocket = require('ws');
 var PlayerController = require('./playercontroller');
 var GameController = require('./gamecontroller');
-var Utility = require('../Shared/utility');
+var Utility = require('./utility');
 
 var app = express();
 var server = http.createServer(app);
