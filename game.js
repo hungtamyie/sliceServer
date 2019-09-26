@@ -7,7 +7,7 @@ class Game {
         this.teamB = {hp: 80, mana: 0};
         this.stage = 0;
         this.lookup = [
-            {manaRegen: 0.1003, maxMana: 1},
+            {manaRegen: 0.0003, maxMana: 1},
             {manaRegen: 0.0007, maxMana: 3},
             {manaRegen: 0.0008, maxMana: 4},
             {manaRegen: 0.0008, maxMana: 5},
@@ -112,6 +112,10 @@ class Game {
                     i -= 1;
                 }
             }
+        }
+        
+        if(this.stage > this.lookup.length -1){
+            this.winner = "B";
         }
     }
     
