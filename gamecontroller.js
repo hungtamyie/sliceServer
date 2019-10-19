@@ -87,7 +87,7 @@ class GameController{
             }
             let currentTime = new Date();
             let passedTime = currentTime - this.timeStarted;
-            if(passedTime > 20 * 1000){
+            if(passedTime > 17 * 1000){
                 this.game.stage++;
                 this.timeStarted = new Date();
             }
