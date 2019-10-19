@@ -7,9 +7,7 @@ class Game {
         this.teamB = {hp: 80, mana: 0};
         this.stage = 0;
         this.lookup = [
-            {manaRegen: 0.0004, maxMana: 1},
-            {manaRegen: 0.0007, maxMana: 2},
-            {manaRegen: 0.0008, maxMana: 3},
+            {manaRegen: 0.0009, maxMana: 3},
             {manaRegen: 0.001, maxMana: 3},
             {manaRegen: 0.0011, maxMana: 4},
             {manaRegen: 0.0012, maxMana: 4},
