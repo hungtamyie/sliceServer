@@ -74,7 +74,7 @@ class Game {
                 
                 this.circles.push({x: input.pos[0], y: input.pos[1], lifetime: 200, team: input.team});
 
-                inputTeamData.hp += 2;
+                //inputTeamData.hp += 2;
                  if(inputTeamData.hp > 100){
                      inputTeamData.hp = 100;
                  }
@@ -96,7 +96,7 @@ class Game {
                 if(circle.lifetime <= 0){
                     if(circle.team == "A"){
                         this.outputEffects.push({type: "explosion", x: circle.x, y: circle.y, team: "B"});
-                        this.teamB.hp -= 15;
+                        this.teamB.hp -= 8;
                         if(this.teamB.hp < 0){
                             this.teamB.hp = 0;
                             this.winner = "A";
@@ -104,7 +104,7 @@ class Game {
                     }
                     else {
                         this.outputEffects.push({type: "explosion", x: circle.x, y: circle.y, team: "A"});
-                        this.teamA.hp -= 15;
+                        this.teamA.hp -= 8;
                         if(this.teamA.hp < 0){
                             this.teamA.hp = 0;
                             this.winner = "B";
